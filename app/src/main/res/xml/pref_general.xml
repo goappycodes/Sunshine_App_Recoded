@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:id="@+id/location" android:title="@string/location"
+        android:key="@string/location"/>
+
+    <ListPreference android:id="@+id/temp_units" android:title="@string/temp"
+        android:key="@string/temp" android:defaultValue="@string/temp_default"
+        android:entryValues="@array/temp" android:entries="@array/temp_value"></ListPreference>
+
+</PreferenceScreen>
